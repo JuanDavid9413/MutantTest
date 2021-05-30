@@ -1,0 +1,9 @@
+D:\TestKill\NetCore\Mutants\BackEnd.Mutants.Entities\bin\Debug\netcoreapp3.1\BackEnd.Mutants.Entities.deps.json
+D:\TestKill\NetCore\Mutants\BackEnd.Mutants.Entities\bin\Debug\netcoreapp3.1\BackEnd.Mutants.Entities.dll
+D:\TestKill\NetCore\Mutants\BackEnd.Mutants.Entities\bin\Debug\netcoreapp3.1\BackEnd.Mutants.Entities.pdb
+D:\TestKill\NetCore\Mutants\BackEnd.Mutants.Entities\obj\Debug\netcoreapp3.1\BackEnd.Mutants.Entities.csprojAssemblyReference.cache
+D:\TestKill\NetCore\Mutants\BackEnd.Mutants.Entities\obj\Debug\netcoreapp3.1\BackEnd.Mutants.Entities.AssemblyInfoInputs.cache
+D:\TestKill\NetCore\Mutants\BackEnd.Mutants.Entities\obj\Debug\netcoreapp3.1\BackEnd.Mutants.Entities.AssemblyInfo.cs
+D:\TestKill\NetCore\Mutants\BackEnd.Mutants.Entities\obj\Debug\netcoreapp3.1\BackEnd.Mutants.Entities.csproj.CoreCompileInputs.cache
+D:\TestKill\NetCore\Mutants\BackEnd.Mutants.Entities\obj\Debug\netcoreapp3.1\BackEnd.Mutants.Entities.dll
+D:\TestKill\NetCore\Mutants\BackEnd.Mutants.Entities\obj\Debug\netcoreapp3.1\BackEnd.Mutants.Entities.pdb

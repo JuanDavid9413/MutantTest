@@ -1,0 +1,146 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "BackEnd.Mutants.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/BackEnd.Mutants.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BackEnd.Mutants.Entities.dll": {}
+        }
+      },
+      "BackEnd.Mutants.Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "BackEnd.Mutants.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BackEnd.Mutants.Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BackEnd.Mutants.Utilities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+      "sha512": "ORj7Zh81gC69TyvmcUm9tSzytcy8AVousi+IVRAI8nLieQjOFryRusSFh7+aLk16FN9pQNqJAiMd7BTKINK0kA==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "BackEnd.Mutants.Entities/1.0.0": {
+      "type": "project",
+      "path": "../BackEnd.Mutants.Entities/BackEnd.Mutants.Entities.csproj",
+      "msbuildProject": "../BackEnd.Mutants.Entities/BackEnd.Mutants.Entities.csproj"
+    },
+    "BackEnd.Mutants.Utilities/1.0.0": {
+      "type": "project",
+      "path": "../BackEnd.Mutants.Utilities/BackEnd.Mutants.Utilities.csproj",
+      "msbuildProject": "../BackEnd.Mutants.Utilities/BackEnd.Mutants.Utilities.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "BackEnd.Mutants.Entities >= 1.0.0",
+      "BackEnd.Mutants.Utilities >= 1.0.0",
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 5.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Juan_David\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\TestKill\\NetCore\\Mutants\\BackEnd.Mutants.Business\\BackEnd.Mutants.Business.csproj",
+      "projectName": "BackEnd.Mutants.Business",
+      "projectPath": "D:\\TestKill\\NetCore\\Mutants\\BackEnd.Mutants.Business\\BackEnd.Mutants.Business.csproj",
+      "packagesPath": "C:\\Users\\Juan_David\\.nuget\\packages\\",
+      "outputPath": "D:\\TestKill\\NetCore\\Mutants\\BackEnd.Mutants.Business\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Juan_David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "D:\\TestKill\\NetCore\\Mutants\\BackEnd.Mutants.Entities\\BackEnd.Mutants.Entities.csproj": {
+              "projectPath": "D:\\TestKill\\NetCore\\Mutants\\BackEnd.Mutants.Entities\\BackEnd.Mutants.Entities.csproj"
+            },
+            "D:\\TestKill\\NetCore\\Mutants\\BackEnd.Mutants.Utilities\\BackEnd.Mutants.Utilities.csproj": {
+              "projectPath": "D:\\TestKill\\NetCore\\Mutants\\BackEnd.Mutants.Utilities\\BackEnd.Mutants.Utilities.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

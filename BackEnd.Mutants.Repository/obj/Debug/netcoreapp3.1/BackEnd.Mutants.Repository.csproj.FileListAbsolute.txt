@@ -1,0 +1,16 @@
+D:\TestKill\NetCore\Mutants\BackEnd.Mutants.Repository\bin\Debug\netcoreapp3.1\BackEnd.Mutants.Business.dll
+D:\TestKill\NetCore\Mutants\BackEnd.Mutants.Repository\bin\Debug\netcoreapp3.1\BackEnd.Mutants.Entities.dll
+D:\TestKill\NetCore\Mutants\BackEnd.Mutants.Repository\bin\Debug\netcoreapp3.1\BackEnd.Mutants.Utilities.dll
+D:\TestKill\NetCore\Mutants\BackEnd.Mutants.Repository\bin\Debug\netcoreapp3.1\BackEnd.Mutants.Business.pdb
+D:\TestKill\NetCore\Mutants\BackEnd.Mutants.Repository\bin\Debug\netcoreapp3.1\BackEnd.Mutants.Entities.pdb
+D:\TestKill\NetCore\Mutants\BackEnd.Mutants.Repository\obj\Debug\netcoreapp3.1\BackEnd.Mutants.Repository.csprojAssemblyReference.cache
+D:\TestKill\NetCore\Mutants\BackEnd.Mutants.Repository\obj\Debug\netcoreapp3.1\BackEnd.Mutants.Repository.AssemblyInfoInputs.cache
+D:\TestKill\NetCore\Mutants\BackEnd.Mutants.Repository\obj\Debug\netcoreapp3.1\BackEnd.Mutants.Repository.AssemblyInfo.cs
+D:\TestKill\NetCore\Mutants\BackEnd.Mutants.Repository\bin\Debug\netcoreapp3.1\BackEnd.Mutants.Repository.deps.json
+D:\TestKill\NetCore\Mutants\BackEnd.Mutants.Repository\bin\Debug\netcoreapp3.1\BackEnd.Mutants.Repository.dll
+D:\TestKill\NetCore\Mutants\BackEnd.Mutants.Repository\bin\Debug\netcoreapp3.1\BackEnd.Mutants.Repository.pdb
+D:\TestKill\NetCore\Mutants\BackEnd.Mutants.Repository\bin\Debug\netcoreapp3.1\BackEnd.Mutants.Utilities.pdb
+D:\TestKill\NetCore\Mutants\BackEnd.Mutants.Repository\obj\Debug\netcoreapp3.1\BackEnd.Mutants.Repository.csproj.CoreCompileInputs.cache
+D:\TestKill\NetCore\Mutants\BackEnd.Mutants.Repository\obj\Debug\netcoreapp3.1\BackEnd.Mutants.Repository.csproj.CopyComplete
+D:\TestKill\NetCore\Mutants\BackEnd.Mutants.Repository\obj\Debug\netcoreapp3.1\BackEnd.Mutants.Repository.dll
+D:\TestKill\NetCore\Mutants\BackEnd.Mutants.Repository\obj\Debug\netcoreapp3.1\BackEnd.Mutants.Repository.pdb
