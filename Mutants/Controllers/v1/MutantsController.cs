@@ -19,6 +19,7 @@ namespace Mutants.Controllers.v1
         }
 
         [HttpGet]
+        [Route("Mutants")]
         public async Task<ActionResult> GetMutant()
         {
             var response = await _business.GetMutants();
@@ -26,6 +27,7 @@ namespace Mutants.Controllers.v1
         }
 
         [HttpPost]
+        [Route("stats")]
         public async Task<ActionResult> IsMutant([FromBody] DnaRequest dna)
         {
             var response = await _business.IsMutant(dna);
