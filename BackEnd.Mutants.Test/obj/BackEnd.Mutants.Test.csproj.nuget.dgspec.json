@@ -1,17 +1,82 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TestKill\\NetCore\\Mutants\\BackEnd.Mutants.Test\\BackEnd.Mutants.Test.csproj": {}
+    "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Test\\BackEnd.Mutants.Test.csproj": {}
   },
   "projects": {
-    "D:\\TestKill\\NetCore\\Mutants\\BackEnd.Mutants.Test\\BackEnd.Mutants.Test.csproj": {
+    "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Business\\BackEnd.Mutants.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TestKill\\NetCore\\Mutants\\BackEnd.Mutants.Test\\BackEnd.Mutants.Test.csproj",
-        "projectName": "BackEnd.Mutants.Test",
-        "projectPath": "D:\\TestKill\\NetCore\\Mutants\\BackEnd.Mutants.Test\\BackEnd.Mutants.Test.csproj",
+        "projectUniqueName": "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Business\\BackEnd.Mutants.Business.csproj",
+        "projectName": "BackEnd.Mutants.Business",
+        "projectPath": "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Business\\BackEnd.Mutants.Business.csproj",
         "packagesPath": "C:\\Users\\Juan_David\\.nuget\\packages\\",
-        "outputPath": "D:\\TestKill\\NetCore\\Mutants\\BackEnd.Mutants.Test\\obj\\",
+        "outputPath": "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Juan_David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Entities\\BackEnd.Mutants.Entities.csproj": {
+                "projectPath": "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Entities\\BackEnd.Mutants.Entities.csproj"
+              },
+              "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Utilities\\BackEnd.Mutants.Utilities.csproj": {
+                "projectPath": "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Utilities\\BackEnd.Mutants.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Entities\\BackEnd.Mutants.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Entities\\BackEnd.Mutants.Entities.csproj",
+        "projectName": "BackEnd.Mutants.Entities",
+        "projectPath": "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Entities\\BackEnd.Mutants.Entities.csproj",
+        "packagesPath": "C:\\Users\\Juan_David\\.nuget\\packages\\",
+        "outputPath": "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Juan_David\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +102,141 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Repository\\BackEnd.Mutants.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Repository\\BackEnd.Mutants.Repository.csproj",
+        "projectName": "BackEnd.Mutants.Repository",
+        "projectPath": "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Repository\\BackEnd.Mutants.Repository.csproj",
+        "packagesPath": "C:\\Users\\Juan_David\\.nuget\\packages\\",
+        "outputPath": "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Juan_David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Business\\BackEnd.Mutants.Business.csproj": {
+                "projectPath": "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Business\\BackEnd.Mutants.Business.csproj"
+              },
+              "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Entities\\BackEnd.Mutants.Entities.csproj": {
+                "projectPath": "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Entities\\BackEnd.Mutants.Entities.csproj"
+              },
+              "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Utilities\\BackEnd.Mutants.Utilities.csproj": {
+                "projectPath": "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Utilities\\BackEnd.Mutants.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Test\\BackEnd.Mutants.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Test\\BackEnd.Mutants.Test.csproj",
+        "projectName": "BackEnd.Mutants.Test",
+        "projectPath": "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Test\\BackEnd.Mutants.Test.csproj",
+        "packagesPath": "C:\\Users\\Juan_David\\.nuget\\packages\\",
+        "outputPath": "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Juan_David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Entities\\BackEnd.Mutants.Entities.csproj": {
+                "projectPath": "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Entities\\BackEnd.Mutants.Entities.csproj"
+              },
+              "D:\\Pruebas\\Meli\\MutantTest\\Mutants\\Mutants.csproj": {
+                "projectPath": "D:\\Pruebas\\Meli\\MutantTest\\Mutants\\Mutants.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
           "dependencies": {
             "MSTest.TestAdapter": {
               "target": "Package",
@@ -49,6 +249,10 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
             },
             "coverlet.collector": {
               "target": "Package",
@@ -66,6 +270,144 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Utilities\\BackEnd.Mutants.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Utilities\\BackEnd.Mutants.Utilities.csproj",
+        "projectName": "BackEnd.Mutants.Utilities",
+        "projectPath": "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Utilities\\BackEnd.Mutants.Utilities.csproj",
+        "packagesPath": "C:\\Users\\Juan_David\\.nuget\\packages\\",
+        "outputPath": "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Juan_David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Entities\\BackEnd.Mutants.Entities.csproj": {
+                "projectPath": "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Entities\\BackEnd.Mutants.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Pruebas\\Meli\\MutantTest\\Mutants\\Mutants.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Pruebas\\Meli\\MutantTest\\Mutants\\Mutants.csproj",
+        "projectName": "Mutants",
+        "projectPath": "D:\\Pruebas\\Meli\\MutantTest\\Mutants\\Mutants.csproj",
+        "packagesPath": "C:\\Users\\Juan_David\\.nuget\\packages\\",
+        "outputPath": "D:\\Pruebas\\Meli\\MutantTest\\Mutants\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Juan_David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Business\\BackEnd.Mutants.Business.csproj": {
+                "projectPath": "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Business\\BackEnd.Mutants.Business.csproj"
+              },
+              "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Entities\\BackEnd.Mutants.Entities.csproj": {
+                "projectPath": "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Entities\\BackEnd.Mutants.Entities.csproj"
+              },
+              "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Repository\\BackEnd.Mutants.Repository.csproj": {
+                "projectPath": "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Repository\\BackEnd.Mutants.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

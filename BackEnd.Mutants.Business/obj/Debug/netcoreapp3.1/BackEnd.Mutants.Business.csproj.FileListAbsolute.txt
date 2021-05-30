@@ -12,3 +12,17 @@ D:\TestKill\NetCore\Mutants\BackEnd.Mutants.Business\obj\Debug\netcoreapp3.1\Bac
 D:\TestKill\NetCore\Mutants\BackEnd.Mutants.Business\obj\Debug\netcoreapp3.1\BackEnd.Mutants.Business.csproj.CoreCompileInputs.cache
 D:\TestKill\NetCore\Mutants\BackEnd.Mutants.Business\bin\Debug\netcoreapp3.1\BackEnd.Mutants.Utilities.dll
 D:\TestKill\NetCore\Mutants\BackEnd.Mutants.Business\bin\Debug\netcoreapp3.1\BackEnd.Mutants.Utilities.pdb
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Business\bin\Debug\netcoreapp3.1\BackEnd.Mutants.Business.deps.json
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Business\bin\Debug\netcoreapp3.1\BackEnd.Mutants.Business.dll
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Business\bin\Debug\netcoreapp3.1\BackEnd.Mutants.Business.pdb
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Business\bin\Debug\netcoreapp3.1\BackEnd.Mutants.Entities.dll
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Business\bin\Debug\netcoreapp3.1\BackEnd.Mutants.Utilities.dll
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Business\bin\Debug\netcoreapp3.1\BackEnd.Mutants.Entities.pdb
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Business\bin\Debug\netcoreapp3.1\BackEnd.Mutants.Utilities.pdb
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Business\obj\Debug\netcoreapp3.1\BackEnd.Mutants.Business.csprojAssemblyReference.cache
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Business\obj\Debug\netcoreapp3.1\BackEnd.Mutants.Business.AssemblyInfoInputs.cache
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Business\obj\Debug\netcoreapp3.1\BackEnd.Mutants.Business.AssemblyInfo.cs
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Business\obj\Debug\netcoreapp3.1\BackEnd.Mutants.Business.csproj.CoreCompileInputs.cache
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Business\obj\Debug\netcoreapp3.1\BackEnd.Mutants.Business.csproj.CopyComplete
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Business\obj\Debug\netcoreapp3.1\BackEnd.Mutants.Business.dll
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Business\obj\Debug\netcoreapp3.1\BackEnd.Mutants.Business.pdb

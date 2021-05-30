@@ -5913,11 +5913,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TestKill\\NetCore\\Mutants\\Mutants\\Mutants.csproj",
+      "projectUniqueName": "D:\\Pruebas\\Meli\\MutantTest\\Mutants\\Mutants.csproj",
       "projectName": "Mutants",
-      "projectPath": "D:\\TestKill\\NetCore\\Mutants\\Mutants\\Mutants.csproj",
+      "projectPath": "D:\\Pruebas\\Meli\\MutantTest\\Mutants\\Mutants.csproj",
       "packagesPath": "C:\\Users\\Juan_David\\.nuget\\packages\\",
-      "outputPath": "D:\\TestKill\\NetCore\\Mutants\\Mutants\\obj\\",
+      "outputPath": "D:\\Pruebas\\Meli\\MutantTest\\Mutants\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Juan_David\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5933,14 +5933,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\TestKill\\NetCore\\Mutants\\BackEnd.Mutants.Business\\BackEnd.Mutants.Business.csproj": {
-              "projectPath": "D:\\TestKill\\NetCore\\Mutants\\BackEnd.Mutants.Business\\BackEnd.Mutants.Business.csproj"
+            "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Business\\BackEnd.Mutants.Business.csproj": {
+              "projectPath": "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Business\\BackEnd.Mutants.Business.csproj"
             },
-            "D:\\TestKill\\NetCore\\Mutants\\BackEnd.Mutants.Entities\\BackEnd.Mutants.Entities.csproj": {
-              "projectPath": "D:\\TestKill\\NetCore\\Mutants\\BackEnd.Mutants.Entities\\BackEnd.Mutants.Entities.csproj"
+            "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Entities\\BackEnd.Mutants.Entities.csproj": {
+              "projectPath": "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Entities\\BackEnd.Mutants.Entities.csproj"
             },
-            "D:\\TestKill\\NetCore\\Mutants\\BackEnd.Mutants.Repository\\BackEnd.Mutants.Repository.csproj": {
-              "projectPath": "D:\\TestKill\\NetCore\\Mutants\\BackEnd.Mutants.Repository\\BackEnd.Mutants.Repository.csproj"
+            "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Repository\\BackEnd.Mutants.Repository.csproj": {
+              "projectPath": "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Repository\\BackEnd.Mutants.Repository.csproj"
             }
           }
         }

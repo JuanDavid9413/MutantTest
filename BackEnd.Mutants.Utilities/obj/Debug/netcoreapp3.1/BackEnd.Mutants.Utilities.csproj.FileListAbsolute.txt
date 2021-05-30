@@ -10,3 +10,15 @@ D:\TestKill\NetCore\Mutants\BackEnd.Mutants.Utilities\obj\Debug\netcoreapp3.1\Ba
 D:\TestKill\NetCore\Mutants\BackEnd.Mutants.Utilities\obj\Debug\netcoreapp3.1\BackEnd.Mutants.Utilities.csproj.CopyComplete
 D:\TestKill\NetCore\Mutants\BackEnd.Mutants.Utilities\obj\Debug\netcoreapp3.1\BackEnd.Mutants.Utilities.dll
 D:\TestKill\NetCore\Mutants\BackEnd.Mutants.Utilities\obj\Debug\netcoreapp3.1\BackEnd.Mutants.Utilities.pdb
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Utilities\bin\Debug\netcoreapp3.1\BackEnd.Mutants.Utilities.deps.json
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Utilities\bin\Debug\netcoreapp3.1\BackEnd.Mutants.Utilities.dll
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Utilities\bin\Debug\netcoreapp3.1\BackEnd.Mutants.Utilities.pdb
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Utilities\bin\Debug\netcoreapp3.1\BackEnd.Mutants.Entities.dll
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Utilities\bin\Debug\netcoreapp3.1\BackEnd.Mutants.Entities.pdb
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Utilities\obj\Debug\netcoreapp3.1\BackEnd.Mutants.Utilities.csprojAssemblyReference.cache
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Utilities\obj\Debug\netcoreapp3.1\BackEnd.Mutants.Utilities.AssemblyInfoInputs.cache
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Utilities\obj\Debug\netcoreapp3.1\BackEnd.Mutants.Utilities.AssemblyInfo.cs
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Utilities\obj\Debug\netcoreapp3.1\BackEnd.Mutants.Utilities.csproj.CoreCompileInputs.cache
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Utilities\obj\Debug\netcoreapp3.1\BackEnd.Mutants.Utilities.csproj.CopyComplete
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Utilities\obj\Debug\netcoreapp3.1\BackEnd.Mutants.Utilities.dll
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Utilities\obj\Debug\netcoreapp3.1\BackEnd.Mutants.Utilities.pdb

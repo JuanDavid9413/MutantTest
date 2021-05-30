@@ -34,7 +34,7 @@ namespace BackEnd.Mutants.Business
                     response.Message = "Solicitud OK";
                     response.count_mutant_dna = result.Where(l => l.IsMutant).Count();
                     response.count_human_dna = result.Where(l => l.IsMutant).Count();
-                    response.ratio = 1.22222;
+                    response.ratio = (result.Where(l => l.IsMutant).Count() * result.Count()) / 100;
                 }
                 else
                 {

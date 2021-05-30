@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mv2hgUU/OhgMOrmZdsVW7MsReKNsfHTnNqxPFFxChIGVV25MS1+AKiRrneyDLimkkl09ii84jQZlo3OK6Cb+7g==",
+  "dgSpecHash": "FCerAcWyEMvX8sol55IbDU0FPyMnASA+/SrP4TyxhYxsBMED/zLCnghVuJQs/jFPylgYfJJaiitY0+axQ0855g==",
   "success": true,
-  "projectFilePath": "D:\\TestKill\\NetCore\\Mutants\\BackEnd.Mutants.Entities\\BackEnd.Mutants.Entities.csproj",
+  "projectFilePath": "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Entities\\BackEnd.Mutants.Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

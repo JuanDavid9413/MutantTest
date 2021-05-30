@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TestKill\\NetCore\\Mutants\\BackEnd.Mutants.Entities\\BackEnd.Mutants.Entities.csproj",
+      "projectUniqueName": "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Entities\\BackEnd.Mutants.Entities.csproj",
       "projectName": "BackEnd.Mutants.Entities",
-      "projectPath": "D:\\TestKill\\NetCore\\Mutants\\BackEnd.Mutants.Entities\\BackEnd.Mutants.Entities.csproj",
+      "projectPath": "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Entities\\BackEnd.Mutants.Entities.csproj",
       "packagesPath": "C:\\Users\\Juan_David\\.nuget\\packages\\",
-      "outputPath": "D:\\TestKill\\NetCore\\Mutants\\BackEnd.Mutants.Entities\\obj\\",
+      "outputPath": "D:\\Pruebas\\Meli\\MutantTest\\BackEnd.Mutants.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Juan_David\\AppData\\Roaming\\NuGet\\NuGet.Config",
