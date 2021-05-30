@@ -1,0 +1,16 @@
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Repository\bin\Release\netcoreapp3.1\BackEnd.Mutants.Repository.deps.json
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Repository\bin\Release\netcoreapp3.1\BackEnd.Mutants.Repository.dll
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Repository\bin\Release\netcoreapp3.1\BackEnd.Mutants.Repository.pdb
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Repository\bin\Release\netcoreapp3.1\BackEnd.Mutants.Business.dll
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Repository\bin\Release\netcoreapp3.1\BackEnd.Mutants.Entities.dll
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Repository\bin\Release\netcoreapp3.1\BackEnd.Mutants.Utilities.dll
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Repository\bin\Release\netcoreapp3.1\BackEnd.Mutants.Business.pdb
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Repository\bin\Release\netcoreapp3.1\BackEnd.Mutants.Entities.pdb
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Repository\bin\Release\netcoreapp3.1\BackEnd.Mutants.Utilities.pdb
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Repository\obj\Release\netcoreapp3.1\BackEnd.Mutants.Repository.csprojAssemblyReference.cache
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Repository\obj\Release\netcoreapp3.1\BackEnd.Mutants.Repository.AssemblyInfoInputs.cache
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Repository\obj\Release\netcoreapp3.1\BackEnd.Mutants.Repository.AssemblyInfo.cs
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Repository\obj\Release\netcoreapp3.1\BackEnd.Mutants.Repository.csproj.CoreCompileInputs.cache
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Repository\obj\Release\netcoreapp3.1\BackEnd.Mutants.Repository.csproj.CopyComplete
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Repository\obj\Release\netcoreapp3.1\BackEnd.Mutants.Repository.dll
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Repository\obj\Release\netcoreapp3.1\BackEnd.Mutants.Repository.pdb

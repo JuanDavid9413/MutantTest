@@ -1,0 +1,9 @@
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Entities\bin\Release\netcoreapp3.1\BackEnd.Mutants.Entities.deps.json
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Entities\bin\Release\netcoreapp3.1\BackEnd.Mutants.Entities.dll
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Entities\bin\Release\netcoreapp3.1\BackEnd.Mutants.Entities.pdb
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Entities\obj\Release\netcoreapp3.1\BackEnd.Mutants.Entities.csprojAssemblyReference.cache
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Entities\obj\Release\netcoreapp3.1\BackEnd.Mutants.Entities.AssemblyInfoInputs.cache
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Entities\obj\Release\netcoreapp3.1\BackEnd.Mutants.Entities.AssemblyInfo.cs
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Entities\obj\Release\netcoreapp3.1\BackEnd.Mutants.Entities.csproj.CoreCompileInputs.cache
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Entities\obj\Release\netcoreapp3.1\BackEnd.Mutants.Entities.dll
+D:\Pruebas\Meli\MutantTest\BackEnd.Mutants.Entities\obj\Release\netcoreapp3.1\BackEnd.Mutants.Entities.pdb
