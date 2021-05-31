@@ -66,7 +66,7 @@ namespace BackEnd.Mutants.Test.Business
                 case 2:
                     _mutantsRepository.Setup(l => l.CreateMutants(It.IsAny<Entities.DbSet.Mutants>()))
                         .Returns(Task.FromResult(true));
-                    dna = new DnaRequest { dna = new List<string> { "ATGCGA", "CAGTGC", "TTATGT", "AGAATG", "CTTATA", "TCACTG" } };
+                    dna = new DnaRequest { dna = new List<string> { "ATGCGA", "CAGTGC", "TTCTGT", "AGAATG", "CTTATA", "TCACTG" } };
                     break;
                 case 3:
                     _mutantsRepository.Setup(l => l.CreateMutants(It.IsAny<Entities.DbSet.Mutants>()))

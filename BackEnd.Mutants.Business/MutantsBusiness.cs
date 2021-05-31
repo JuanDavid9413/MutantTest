@@ -34,7 +34,8 @@ namespace BackEnd.Mutants.Business
                     response.Message = "Solicitud OK";
                     response.count_mutant_dna = result.Where(l => l.IsMutant).Count();
                     response.count_human_dna = result.Where(l => l.IsMutant).Count();
-                    response.ratio = (result.Where(l => l.IsMutant).Count() * result.Count()) / 100;
+                    double total = Convert.ToDouble(result.Where(l => l.IsMutant).Count() * result.Count());
+                    response.ratio = Convert.ToDouble(total / 100);
                 }
                 else
                 {
@@ -60,22 +61,20 @@ namespace BackEnd.Mutants.Business
                 var dimension = MutantsBusinessProccesor.ExtractDimensionMatriz(dnaRequest.dna);
                 if (dimension[0] != 0 && dimension[1] != 0)
                 {
-                    for (int i = 1; i <= 2; i++)
+                    for (int i = 1; i <= 3; i++)
                     {
                         var dnaHorizontal = MutantsBusinessProccesor.ConvertDataBidimentional(dnaRequest.dna, i);
-                        var resultMutant = MutantsBusinessProccesor.ValidateMutant(dnaHorizontal, dimension);
+                        var resultMutant = MutantsBusinessProccesor.ValidateMutant(dnaHorizontal, dimension, i);
                         countPatronMutant += resultMutant;
                     }
 
                     if (countPatronMutant > 1)
                     {
-                        //Registra en base de datos si es mutante
                         response.Data = await _repository.CreateMutants(new Entities.DbSet.Mutants { IsMutant = true });
                         response.ResponseBaseCatch<bool>(true, "El patron DNA analizado es mutante", HttpStatusCode.OK);
                     }
                     else
                     {
-                        //Registra en base de datos si no es mutante
                         response.Data = await _repository.CreateMutants(new Entities.DbSet.Mutants { IsMutant = false });
                         response.ResponseBaseCatch<bool>(true, "El patron DNA analizado no es mutante", HttpStatusCode.Forbidden);
                     }

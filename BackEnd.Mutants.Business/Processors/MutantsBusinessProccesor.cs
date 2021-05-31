@@ -47,24 +47,76 @@ namespace BackEnd.Mutants.Business.Processors
                     }
                     break;
                 case 3:
-                    // Crear matriz datos diagonal.
+                    for (int a = 0; a < dna.Count; a++)
+                    {
+                        var arrDna = dna[a].ToCharArray();
+                        for (int b = 0; b <= dna.FirstOrDefault().Length - 1; b++)
+                        {
+                            if (a == b)
+                                matriz[a, b] = arrDna[a];                            
+                        }
+                    }
                     break;
             }
 
             return matriz;
         }
 
-        public static int ValidateMutant(char[,] dna, List<int> dimensions)
+        public static int ValidateMutant(char[,] dna, List<int> dimensions, int i)
         {
             int count = 0;
             //validate Matriz.
-            for (int a = 0; a <= dimensions[0] - 1; a++)
+            if (i != 3)
+            {
+                for (int a = 0; a <= dimensions[0] - 1; a++)
+                {
+                    char[] arrDna = new char[dimensions[0]];
+                    int resultParent = 0;
+                    for (int b = 0; b <= dimensions[1] - 1; b++)
+                    {
+                        arrDna[b] = dna[a, b];
+                    }
+
+                    foreach (var item in arrDna)
+                    {
+                        arrDna = arrDna.Where((source, index) => index != 0).ToArray();
+                        if (arrDna.Length > 0)
+                        {
+                            if (item == arrDna[0])
+                                resultParent++;
+                            else
+                                resultParent = 0;
+                        }
+                        if (resultParent == 3)
+                            count++;
+                    }
+                }
+            }
+            else if (i == 3)
             {
                 char[] arrDna = new char[dimensions[0]];
+                char[] arrDnaInvert = new char[dimensions[0]];
                 int resultParent = 0;
-                for (int b = 0; b <= dimensions[1] - 1; b++)
+                for (int a = 0; a <= dimensions[0] - 1; a++)
                 {
-                    arrDna[b] = dna[a, b];
+                    for (int b = 0; b <= dimensions[1] - 1; b++)
+                    {
+                        if( a == b)
+                            arrDna[b] = dna[a, b];
+                    }
+                }
+                int position = 0;
+                for (int a = dimensions[0] - 1; a >= 0; a--)
+                {
+                    for (int b = dimensions[1] - 1; b >= 0; b--)
+                    {
+                        if (a == b)
+                        {
+                            arrDnaInvert[position] = dna[a, b];
+                            position++;
+                        }
+                            
+                    }
                 }
 
                 foreach (var item in arrDna)
@@ -80,8 +132,25 @@ namespace BackEnd.Mutants.Business.Processors
                     if (resultParent == 3)
                         count++;
                 }
-            }
 
+                foreach (var item in arrDnaInvert)
+                {
+                    arrDnaInvert = arrDnaInvert.Where((source, index) => index != 0).ToArray();
+                    if (arrDnaInvert.Length > 0)
+                    {
+                        if (item == arrDnaInvert[0])
+                            resultParent++;
+                        else
+                            resultParent = 0;
+                    }
+                    else
+                        resultParent = 0;
+
+                    if (resultParent == 3)
+                        count++;
+                }
+            }
+            
             return count;
         }
     }
